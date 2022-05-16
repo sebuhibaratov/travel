@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+:root {
+    --opn: 'Open Sans', sans-serif;
+    --mont: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header nav i {
+    color: #fff;
+    font-size: 24px;
+}
+
+.headerbody h1 {
+    font: 300 52px var(--opn);
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.headerbody form , .uchson2 form {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    padding-bottom: 205px;
+}
+
+.headerbody form input , .uchson2 form input{
+    width: 300px;
+    font: 400 16px var(--opn);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.headerbody form button , .uchson2 form button{
+    font: 700 16px var(--opn);
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 15px 50px;
+    background-color: #fd4f32;
+    border: none;
+    outline: none;
+}
+
+#iki {
+    background-color: #eeeeee;
+}
+
+.ikiyazi h2 {
+    font: 400 16px var(--mont);
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.ikiyazi p {
+    font: 400 15px var(--opn);
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#ikisekil {
+    display: flex;
+    padding-bottom: 70px;
+
+}
+
+.ikisekil2 {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#ikisekil h3 {
+    font: 400 14px var(--mont);
+    letter-spacing: 0px;
+    color: #323232;
+    text-transform: uppercase;
+    margin: 10px 10px;
+}
+
+#ikisekil p {
+    font: 400 13px var(--opn);
+    height: 75px;
+    line-height: 19px;
+    color: #696969;
+    margin: 10px 10px;
+}
+
+.yazi {
+    background-color: #fff;
+}
+#uch h1{
+    font: 300 52px var(--opn);
+letter-spacing: 2px;
+color: #323232;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+.uchyazi{
+    display: flex;
+
+}
+.uchyazi h3{
+    font: 400 16px var(--mont);
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+text-transform: uppercase;
+margin-bottom: 22px;
+margin-right: 60px;
+}
+.uchyazi p{
+    font: 400 15px var(--opn);
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+margin-right: 60px;
+}
+.uchson h3{
+    font: 400 16px var(--mont);
+letter-spacing: 0px;
+color: #323232;
+text-align: center;
+text-transform: uppercase;
+margin-top: 80px;
+margin-bottom: 30px;
+}
+.uchson2 form {
+    margin-bottom: 80px;
+}
+.uchayaq{
+    background-color: #eeeeee;
+}
+.uchayaq2 {
+    padding: 30px ;
+    display: flex;
+    justify-content: space-between;
+}
+.uchayaq h4 {
+    font: 400 14px var(--opn);
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+}
+.uchayaq ul li { 
+    font: 400 14px var(--mont);
+letter-spacing: 0px;
+color: #323232;
+text-transform: uppercase;
+display: inline;
+margin-left: 15px;
+}
+.
+
